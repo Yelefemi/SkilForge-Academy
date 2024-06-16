@@ -8,7 +8,7 @@
 
 
 
-
+ 
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
@@ -341,7 +341,7 @@ body.nav-active { overflow: hidden; }
   z-index: 4;
 }
 .headline-lg .forge{
-  background: linear-gradient(#faf6f6,#fff);
+  background: linear-gradient(#471616,#0e0404);
   background-repeat: no-repeat;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -950,58 +950,6 @@ body.nav-active { overflow: hidden; }
 
   .footer .container { gap: 48px; }
 
-}
-
-/* partnered schools */
-
-
-.slider {
-  position: relative;
-  width: 100%;
-  max-width: 800px;
-  overflow: hidden;
-  background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-left: 155px;
-  margin-bottom: 15 px;
-}
-.slider-img{
-  padding-left: 275px;
-}
-
-.slides {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-  
-}
-
-.slide {
-  min-width: 100%;
-  box-sizing: border-box;
-  padding: 20px;
-  text-align: center;
-}
-
-.navigation {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  transform: translateY(-50%);
-}
-
-.navigation button {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  border-radius: 50%;
-}
-
-.navigation button:hover {
-  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Media Queries for Responsive Design */
