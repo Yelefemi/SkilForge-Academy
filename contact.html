@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | SkilForge Academy</title>
+  <meta name="description"
+    content="Contact SkilForge Academy for caring, professional support with student enrollment, private classes or school partnerships.">
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/font/font.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <div class="preloader" data-preloader>
+    <div class="circle" data-circle></div>
+  </div>
+
+  <header class="header" data-header>
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="./assets/images/LOGO-.png" width="80" height="24" alt="SkilForge Academy logo">
+      </a>
+      <nav class="navbar" data-navbar>
+        <div class="navbar-top">
+          <a href="index.html" class="logo">
+            <img src="./assets/images/LOGO-.png" width="80" height="24" alt="SkilForge Academy logo">
+          </a>
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+        <ul class="navbar-list">
+          <li class="navbar-item"><a href="index.html" class="navbar-link title-sm" data-nav-link>Home</a></li>
+          <li class="navbar-item"><a href="about.html" class="navbar-link title-sm" data-nav-link>About</a></li>
+          <li class="navbar-item"><a href="programs.html" class="navbar-link title-sm" data-nav-link>Programs</a></li>
+          <li class="navbar-item"><a href="schools.html" class="navbar-link title-sm" data-nav-link>Schools</a></li>
+          <li class="navbar-item"><a href="contact.html" class="navbar-link title-sm" data-nav-link>Contact</a></li>
+          <li class="navbar-item"><a href="Gallery.html" class="navbar-link title-sm" data-nav-link>Gallery</a></li>
+        </ul>
+      </nav>
+      <a href="https://wa.me/2349028367079" class="btn btn-secondary">Chat on WhatsApp</a>
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+      <div class="overlay" data-overlay data-nav-toggler></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section hero has-bg-image page-hero"
+      style="background-image: linear-gradient(135deg, rgba(18, 17, 23, 0.78), rgba(18, 17, 23, 0.36)), url('https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1600&q=80');">
+      <div class="container">
+        <div class="hero-content">
+          <p class="hero-kicker">Contact and Enrollment</p>
+          <h1 class="headline-lg page-hero-title">The right conversation can open the next big step for a child or school.</h1>
+          <p class="gallery-lead">
+            We are ready to listen carefully, understand the need and guide you toward the best next step with clarity
+            and professionalism.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <p class="title-sm section-subtitle">Talk to SkilForge</p>
+          <h2 class="headline-md section-title">Tell us what your child or school needs, and we will respond with care.</h2>
+          <p class="title-sm section-text">
+            Whether you are searching for the right class, more personal support, or a dependable school partnership,
+            we want the process to feel clear, respectful and helpful from the start.
+          </p>
+          <ul class="contact-points">
+            <li><strong>Phone:</strong> <a href="tel:+2349028367079">+234 902 836 7079</a></li>
+            <li><strong>WhatsApp:</strong> <a href="https://wa.me/2349028367079">Send us a message</a></li>
+            <li><strong>Enrollment Form:</strong> <a href="https://forms.gle/uNUbRssB5L7UF4RC8">Open student form</a></li>
+            <li><strong>Instructor Form:</strong> <a href="https://forms.gle/Qycy1cxhjF3DZXND6">Apply as an instructor</a></li>
+          </ul>
+        </div>
+
+        <form class="contact-form card" data-contact-form>
+          <label class="form-field">
+            <span class="form-label">Parent or school name</span>
+            <input type="text" name="name" placeholder="Your name or school name" required>
+          </label>
+          <label class="form-field">
+            <span class="form-label">Email address</span>
+            <input type="email" name="email" placeholder="name@example.com" required>
+          </label>
+          <label class="form-field">
+            <span class="form-label">Phone number</span>
+            <input type="tel" name="phone" placeholder="+234..." required>
+          </label>
+          <label class="form-field">
+            <span class="form-label">Inquiry type</span>
+            <select name="inquiryType" required>
+              <option value="">Select one</option>
+              <option value="Student enrollment">Student enrollment</option>
+              <option value="Private physical classes">Private physical classes</option>
+              <option value="School partnership">School partnership</option>
+              <option value="Instructor application">Instructor application</option>
+            </select>
+          </label>
+          <label class="form-field">
+            <span class="form-label">Program or subject</span>
+            <input type="text" name="program" placeholder="Coding, Maths, Chess, Robotics..." required>
+          </label>
+          <label class="form-field">
+            <span class="form-label">Message</span>
+            <textarea name="message" rows="5"
+              placeholder="Tell us the age range, program need, preferred schedule or school request." required></textarea>
+          </label>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Send via WhatsApp</button>
+            <a href="https://forms.gle/uNUbRssB5L7UF4RC8" class="btn btn-secondary">Open Enrollment Form</a>
+          </div>
+          <p class="form-note" data-form-feedback aria-live="polite">
+            Submitting this form opens WhatsApp with your inquiry details already prepared so we can respond faster.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer has-bg-image" style="background-image: url('./assets/images/footer-bg.png')">
+    <div class="section footer-top">
+      <div class="container">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <img src="./assets/images/LOGO-.png" width="110" height="24" alt="SkilForge Academy logo">
+          </a>
+          <p class="title-sm footer-text">Helping children and teens grow through tech, academics and chess.</p>
+        </div>
+        <ul class="footer-list">
+          <li><p class="headline-sm footer-list-title">Pages</p></li>
+          <li><a href="about.html" class="title-sm footer-link">About</a></li>
+          <li><a href="programs.html" class="title-sm footer-link">Programs</a></li>
+          <li><a href="schools.html" class="title-sm footer-link">Schools</a></li>
+          <li><a href="Gallery.html" class="title-sm footer-link">Gallery</a></li>
+        </ul>
+        <ul class="footer-list">
+          <li><p class="headline-sm footer-list-title">Contact</p></li>
+          <li><a href="tel:+2349028367079" class="title-sm footer-link">+234 902 836 7079</a></li>
+          <li><a href="https://wa.me/2349028367079" class="title-sm footer-link">WhatsApp Chat</a></li>
+          <li><a href="https://forms.gle/uNUbRssB5L7UF4RC8" class="title-sm footer-link">Student Enrollment</a></li>
+        </ul>
+        <ul class="footer-list">
+          <li><p class="headline-sm footer-list-title">Best Use of This Page</p></li>
+          <li><span class="title-sm footer-link">Parent inquiries</span></li>
+          <li><span class="title-sm footer-link">School partnership requests</span></li>
+          <li><span class="title-sm footer-link">Private class requests</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">&copy; <span data-current-year>2026</span> SkilForge Academy. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

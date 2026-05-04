@@ -1,70 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head> 
+<head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- 
-    - primary meta tags
-  -->
-  <title>SkilForge Academy</title>
-  <meta name="title" content="SkilForge">
-
-  <!-- 
-    - favicon
-  -->
+  <title>SkilForge Academy | Gallery</title>
+  <meta name="title" content="SkilForge Academy Gallery">
+  <meta name="description"
+    content="View classroom highlights, student projects and activity moments from SkilForge Academy programs.">
   <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
-
-  <!-- 
-    - custom font link
-  -->
   <link rel="stylesheet" href="./assets/font/font.css">
-
-  <!-- 
-    - custom css link
-  -->
   <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!-- 
-    - preload images
-  -->
-  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
-  <link rel="preload" as="image" href="./assets/images/hero-bg.png">
-
 </head>
 
 <body>
-
-  <!-- 
-    - PRELOADER
-  -->
 
   <div class="preloader" data-preloader>
     <div class="circle" data-circle></div>
   </div>
 
-
-
-
-
-  <!-- 
-    - #HEADER
-  -->
-
   <header class="header" data-header>
     <div class="container">
-
-      <a href="#" class="logo">
-        <img src="./assets/images/LOGO-.png" width="80" height="10" alt="SkilForge">
+      <a href="index.html" class="logo">
+        <img src="./assets/images/LOGO-.png" width="80" height="24" alt="SkilForge Academy logo">
       </a>
 
       <nav class="navbar" data-navbar>
-
         <div class="navbar-top">
-          <a href="#" class="logo">
-            <img src="./assets/images/LOGO-.png" width="80" height="10" alt="SkilForge">
+          <a href="index.html" class="logo">
+            <img src="./assets/images/LOGO-.png" width="80" height="24" alt="SkilForge Academy logo">
           </a>
 
           <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
@@ -73,338 +38,144 @@
         </div>
 
         <ul class="navbar-list">
-
           <li class="navbar-item">
             <a href="index.html" class="navbar-link title-sm" data-nav-link>Home</a>
           </li>
-
           <li class="navbar-item">
-            <a href="#Courses" class="navbar-link title-sm" data-nav-link>Courses</a>
+            <a href="about.html" class="navbar-link title-sm" data-nav-link>About</a>
           </li>
           <li class="navbar-item">
-            <a href="Gallery.html" class="navbar-link title-sm" data-nav-link>Gallery
-</a>
+            <a href="programs.html" class="navbar-link title-sm" data-nav-link>Programs</a>
           </li>
-
           <li class="navbar-item">
-            <a href="#Contact" class="navbar-link title-sm" data-nav-link>Contacts</a>
+            <a href="schools.html" class="navbar-link title-sm" data-nav-link>Schools</a>
           </li>
-
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-link title-sm" data-nav-link>Contact</a>
+          </li>
+          <li class="navbar-item">
+            <a href="Gallery.html" class="navbar-link title-sm" data-nav-link>Gallery</a>
+          </li>
         </ul>
-
       </nav>
 
-      <a href="https://wa.me/2349028367079" class="btn btn-primary">Become a Partner School</a>
+      <a href="contact.html" class="btn btn-secondary">Make an Inquiry</a>
 
       <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
         <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
       </button>
 
       <div class="overlay" data-overlay data-nav-toggler></div>
-
     </div>
   </header>
 
-
-
-
-
   <main>
-    <article>
-
-      <!-- 
-        - #HERO
-      -->
-
-      <section class="section hero has-bg-image" aria-labelledby="hero-label"
-        style="background-image:linear-gradient(rgba(245, 245, 245, 0.479), rgba(0,0,0,0.15)) , url('./assets/images/Games\ Dev.jpg');
-        height: 95vh;" id="Ghero">
-        <div class="container">
-          
-          
-          <div class="hero-content">
-
-            <h1 class="headline-lg" id="hero-label" style="color: white;">
-              WELCOME! <span class="span">Take a</span> peek at  <span class="forge">Our Gallery</span> 
-            </h1>
-
-            <!-- <p class="title-md has-before">
-            We are dedicated to unveiling and instilling the right attitude and SKILL towards the demands of our new world.
-            </p> -->
-
-            
-
-              <!-- <a href="#" class="btn btn-secondary">Get Started Now</a> -->
-            </div>
-
+    <section class="section hero has-bg-image gallery-hero" aria-labelledby="gallery-label"
+      style="background-image: linear-gradient(135deg, rgba(18, 17, 23, 0.8), rgba(18, 17, 23, 0.38)), url('https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=1600&q=80');"
+      id="gallery-home">
+      <div class="container">
+        <div class="hero-content">
+          <p class="hero-kicker">Inside SkilForge Academy</p>
+          <h1 class="headline-lg" id="gallery-label">
+            See the energy, confidence and joyful growth behind <span class="span">our programs</span>
+          </h1>
+          <p class="gallery-lead">
+            These moments reflect the kind of environment we work hard to build: warm, engaging, disciplined and full
+            of possibility for every champ we teach.
+          </p>
+          <div class="btn-group">
+            <a href="contact.html" class="btn btn-primary">Ask About Classes</a>
+            <a href="programs.html" class="btn btn-secondary">View Programs</a>
           </div>
-
-          <!-- <figure class="hero-banner">
-            <img src="./assets/images/hero-banner.png" width="590" height="620" alt="hero banner" class="w-100">
-          </figure> -->
-
         </div>
-      </section>
+      </div>
+    </section>
 
+    <section class="section">
+      <div class="container">
+        <p class="title-sm text-center section-subtitle">Activity Gallery</p>
+        <h2 class="headline-md text-center section-title">
+          Student projects, class sessions and <span class="span has-after">program highlights</span>
+        </h2>
 
-  
-
-
-
-
-<div class="gallery">
-  <div class="gallery-item">
-    <img src="assets/images/Story ani.jpg" alt="Image 1">
-  </div>
-  <div class="gallery-item">
-    <img src="assets/images/Games Dev.jpg" alt="Image 2">
-  </div>
-  <div class="gallery-item">
-    <img src="assets/images/Rectangle 15.png" alt="Image 3">
-  </div>
-  <div class="gallery-item">
-    <img src="assets/images/g20240513_130534.jpg" alt="Image 1">
-  </div>
-  <div class="gallery-item">
-    <img src="assets/images/g20240513_130550.jpg" alt="Image 2">
-  </div>
-  <div class="gallery-item">
-    <img src="assets/images/g20240513_132030.jpg" alt="Image 3">
-  </div>
-  <div class="gallery-item">
-    <img src="assets/images/g20240514_110121.jpg" alt="Image 1">
-  </div>
-  <div class="gallery-item">
-    <img src="assets/images/g20240514_110142.jpg" alt="Image 2">
-  </div>
-  <div class="gallery-item">
-    <img src="assets/images/g20240514_110234.jpg" alt="Image 3">
-  </div>
-  <div class="gallery-item">
-    <img src="assets/images/g20240516_113539.jpg" alt="Image 1">
-  </div>
-  <div class="gallery-item">
-    <img src="assets/images/g20240516_113612.jpg" alt="Image 2">
-  </div>
-  <div class="gallery-item">
-    <img src="assets/images/g20240516_113603.jpg" alt="Image 3">
-  </div>
-  <div class="gallery-item">
-    <img src="assets/images/g20240516_113626.jpg" alt="Image 1">
-  </div>
-  <div class="gallery-item">
-    <img src="assets/images/g20240516_113637.jpg" alt="Image 2">
-  </div>
-  <div class="gallery-item">
-    <img src="assets/images/g20240516_113642.jpg  " alt="Image 3">
-  </div>
-  <div class="gallery-item">
-    <img src="assets/images/instagram post.jpg" alt="Image 1">
-  </div>
-  <div class="gallery-item">
-    <img src="assets/images/instagram post3.jpg" alt="Image 2">
-  </div>
-  <div class="gallery-item">
-    <img src="assets/images/instagram post2.jpg" alt="Image 3">
-  </div>
-  
-</div>
-
-
- <!-- 
-    - #FOOTER
-  -->
+        <div class="gallery">
+          <div class="gallery-item"><img src="assets/images/Story ani.jpg" alt="Student animation training"></div>
+          <div class="gallery-item"><img src="assets/images/Games Dev.jpg" alt="Game development class"></div>
+          <div class="gallery-item"><img src="assets/images/Rectangle 15.png" alt="Web design training"></div>
+          <div class="gallery-item"><img src="assets/images/g20240513_130534.jpg" alt="Students during class"></div>
+          <div class="gallery-item"><img src="assets/images/g20240513_130550.jpg" alt="Student learning activity"></div>
+          <div class="gallery-item"><img src="assets/images/g20240513_132030.jpg" alt="SkilForge classroom moment"></div>
+          <div class="gallery-item"><img src="assets/images/g20240514_110121.jpg" alt="Students and instructor"></div>
+          <div class="gallery-item"><img src="assets/images/g20240514_110142.jpg" alt="Tech activity session"></div>
+          <div class="gallery-item"><img src="assets/images/g20240514_110234.jpg" alt="Student project time"></div>
+          <div class="gallery-item"><img src="assets/images/g20240516_113539.jpg" alt="Learners in session"></div>
+          <div class="gallery-item"><img src="assets/images/g20240516_113612.jpg" alt="Children in class"></div>
+          <div class="gallery-item"><img src="assets/images/g20240516_113603.jpg" alt="Students working together"></div>
+          <div class="gallery-item"><img src="assets/images/g20240516_113626.jpg" alt="Student participation moment"></div>
+          <div class="gallery-item"><img src="assets/images/g20240516_113637.jpg" alt="In-class learning"></div>
+          <div class="gallery-item"><img src="assets/images/g20240516_113642.jpg" alt="Creative classroom activity"></div>
+          <div class="gallery-item"><img src="assets/images/instagram post.jpg" alt="Program flyer"></div>
+          <div class="gallery-item"><img src="assets/images/instagram post3.jpg" alt="Class update"></div>
+          <div class="gallery-item"><img src="assets/images/instagram post2.jpg" alt="Student announcement flyer"></div>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer class="footer has-bg-image" style="background-image: url('./assets/images/footer-bg.png')">
-
     <div class="section footer-top">
       <div class="container">
-
         <div class="footer-brand">
-
-          <a href="#" class="logo">
-            <img src="./assets/images/LOGO-.png" width="110" height="20" alt="SkilForge">
+          <a href="index.html" class="logo">
+            <img src="./assets/images/LOGO-.png" width="110" height="24" alt="SkilForge Academy logo">
           </a>
-
           <p class="title-sm footer-text">
-            "... We all become better with tech skills"
+            Helping children and teens grow through tech, academics and chess with care, structure and excellence.
           </p>
-
-          <ul class="social-list">
-
-            <li>
-              <a href="#" class="social-link">
-                <img src="./assets/images/facebook.svg" width="40" height="40" loading="lazy" alt="facebook">
-              </a>
-            </li>
-            <li>
-              <a href="https://wa.me/2349028367079" class="social-link">
-                <img src="./assets/images/download (1).jpeg" width="40" height="40" loading="lazy" alt="whatsapp">
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <img src="./assets/images/linkedin.png" width="40" height="40" loading="lazy" alt="twitter">
-              </a>
-            </li>
-
-            <li>
-              <a href="tel:+2349028367079" class="social-link">
-                <img src="./assets/images/download.png" width="40" height="40" loading="lazy" alt="Call">
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <img src="./assets/images/instagram.svg" width="40" height="40" loading="lazy" alt="instagram">
-              </a>
-            </li>
-
-          </ul>
-
         </div>
 
-        <ul class="footer-list" id="Contact">
-
+        <ul class="footer-list">
           <li>
-            <p class="headline-sm footer-list-title">Links</p>
+            <p class="headline-sm footer-list-title">Quick Links</p>
           </li>
-
-          <li>
-            <a href="#home" class="title-sm footer-link">Home</a>
-          </li>
-
-          <li>
-            <a href="#About" class="title-sm footer-link">About Us</a>
-          </li>
-          <li>
-            <a href="Gallery.html" class="title-sm footer-link">Gallery</a>
-          </li>
-
-          <li>
-            <a href="#" class="title-sm footer-link">Pricing</a>
-          </li>
-
-          <li>
-            <a href="#Courses" class="title-sm footer-link">Courses</a>
-          </li>
-
-          <li>
-            <a href="#Contact" class="title-sm footer-link">Contact Us</a>
-          </li>
-
-          <li>
-            <a href="#Blog" class="title-sm footer-link">Blog</a>
-          </li>
-
+          <li><a href="index.html" class="title-sm footer-link">Home</a></li>
+          <li><a href="about.html" class="title-sm footer-link">About</a></li>
+          <li><a href="programs.html" class="title-sm footer-link">Programs</a></li>
+          <li><a href="schools.html" class="title-sm footer-link">Schools</a></li>
+          <li><a href="contact.html" class="title-sm footer-link">Contact</a></li>
         </ul>
 
         <ul class="footer-list">
-
           <li>
-            <p class="headline-sm footer-list-title">Legal</p>
+            <p class="headline-sm footer-list-title">Contact</p>
           </li>
-
-          <li>
-            <a href="#" class="title-sm footer-link">Legal</a>
-          </li>
-
-          <li>
-            <a href="#" class="title-sm footer-link">Tearms of Use</a>
-          </li>
-
-          <li>
-            <a href="#" class="title-sm footer-link">Tearm & Condition</a>
-          </li>
-
-          <li>
-            <a href="#" class="title-sm footer-link">Payment Method</a>
-          </li>
-
-          <li>
-            <a href="#" class="title-sm footer-link">Privacy Policy</a>
-          </li>
-
+          <li><a href="tel:+2349028367079" class="title-sm footer-link">+234 902 836 7079</a></li>
+          <li><a href="https://wa.me/2349028367079" class="title-sm footer-link">WhatsApp Chat</a></li>
+          <li><a href="https://forms.gle/uNUbRssB5L7UF4RC8" class="title-sm footer-link">Student Enrollment</a></li>
         </ul>
 
         <ul class="footer-list">
-
           <li>
-
-            <p class="headline-sm footer-list-title">Instagram Post</p>
-
-            <ul class="grid-list">
-
-              <li>
-                <img src="./assets/images/instagram post.jpg" width="80" height="80" loading="lazy" alt="instagram post"
-                  class="img-cover">
-              </li>
-
-              <li>
-                <img src="./assets/images/instagram post2.jpg" width="80" height="80" loading="lazy" alt="instagram post"
-                  class="img-cover">
-              </li>
-
-              <li>
-                <img src="./assets/images/instagram post3.jpg" width="80" height="80" loading="lazy" alt="instagram post"
-                  class="img-cover">
-              </li>
-
-              <li>
-                <img src="./assets/images/instagram post4.jpg" width="80" height="80" loading="lazy" alt="instagram post"
-                  class="img-cover">
-              </li>
-
-              <li>
-                <img src="./assets/images/g20240516_113603.jpg" width="80" height="80" loading="lazy" alt="instagram post"
-                  class="img-cover">
-              </li>
-
-              <li>
-                <img src="./assets/images/kid-lp.jpg" width="80" height="80" loading="lazy" alt="instagram post"
-                  class="img-cover">
-              </li>
-
-            </ul>
-
+            <p class="headline-sm footer-list-title">Next Step</p>
           </li>
-
+          <li><a href="contact.html" class="title-sm footer-link">Request a class recommendation</a></li>
         </ul>
-
       </div>
     </div>
 
     <div class="footer-bottom">
       <div class="container">
-
         <p class="copyright">
-          © Copyright 2024 | SkilForge Academy | All Rights Reserved by SkilForge
+          &copy; <span data-current-year>2026</span> SkilForge Academy. All rights reserved.
         </p>
-
       </div>
     </div>
-
   </footer>
 
-
-
-
-
-  <!-- 
-   - custom js link
-  -->
   <script src="./assets/js/script.js"></script>
-
-  <!-- 
-    - ionicon
-  -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 
 </html>
-</body>
-</html>
-
